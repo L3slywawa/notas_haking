@@ -27,7 +27,7 @@ Y nuestra flag aparecerá en la sección `b1,rgb,lsb,xy`.
 NOTA: Si no se tiene instalado el **Zteg** se utiliza con el siguiente comando: `gem install zsteg`
 
 ````
-jazmin@DESKTOP-1CBQJ6D:~/FSI$ zsteg pico.flag.png
+ zsteg pico.flag.png
 b1,r,lsb,xy         .. text: "~__B>wV_G@"
 b1,g,lsb,xy         .. file: dBase III DBT, version number 0, next free block index 3549684369
 b1,g,msb,xy         .. file: dBase III DBT, version number 0, next free block index 3418965897
@@ -45,5 +45,5 @@ b4,bgr,lsb,xy       .. file: Targa image data - Map 273 x 272 x 16 +1 +4113 - 1-
 b4,rgba,lsb,xy      .. file: Novell LANalyzer capture file
 b4,rgba,msb,xy      .. file: Applesoft BASIC program data, first line number 8
 b4,abgr,lsb,xy      .. file: Novell LANalyzer capture file
-jazmin@DESKTOP-1CBQJ6D:~/FSI$
+
 ```

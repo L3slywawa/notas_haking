@@ -23,7 +23,7 @@ Ingresamos a nuestra terminal de ubuntu e ingresamos los siguientes comandos:
 
 
 ````
-jazmin@DESKTOP-1CBQJ6D:~/FSI$ exiftool cat.jpg
+ exiftool cat.jpg
 ExifTool Version Number         : 11.88
 File Name                       : cat.jpg
 Directory                       : .
@@ -53,10 +53,10 @@ Color Components                : 3
 Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
 Image Size                      : 2560x1598
 Megapixels                      : 4.1
-jazmin@DESKTOP-1CBQJ6D:~/FSI$ exiftool cat.jpg | grep License
+ exiftool cat.jpg | grep License
 License                         : cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9
-jazmin@DESKTOP-1CBQJ6D:~/FSI$ exiftool cat.jpg | grep License | sed -e 's/.*: //'
+ exiftool cat.jpg | grep License | sed -e 's/.*: //'
 cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9
-jazmin@DESKTOP-1CBQJ6D:~/FSI$ exiftool cat.jpg | grep License | sed -e 's/.*: //' | base64 -d
+exiftool cat.jpg | grep License | sed -e 's/.*: //' | base64 -d
 picoCTF{the_m3tadata_1s_modified}jazmin@DESKTOP-1CBQJ6D:~/FSI$
 ```
